@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
+
+body {
+    background-image: url("../img/Papier.jpg");
+}
+
+#wolke {
+    font-family: "math";
+}
+
+#instagram .show {
+    display: none;
+    padding: 8px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    border-radius: 20px;
+}
+
+#instagram:hover .normal {
+    display: none;
+}
+
+#instagram:hover .show {
+    display: inline;
+}
+
+#github .show {
+    display: none;
+    padding: 8px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+
+#github:hover .normal {
+    display: none;
+}
+
+#github:hover .show {
+    display: inline;
+}
+
+#gedicht {
+    margin-top: 5%;
+}
+
+img:hover{
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+#strophen {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#heart {
+    color: red;
+}
